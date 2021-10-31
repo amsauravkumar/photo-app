@@ -84,9 +84,11 @@ class FeedsPage extends Component<HomePageProps, HomePageStates> {
       <div>
         <PageTitle />
         <div className={styles.imageContainer}>
-          {this.state.feedList.map((post) => {
+          {this.state.feedList.map((post, index) => {
             return (
-              <Post postData={post} key={post.id} onClick={this.onClick} />
+              // <Post postData={post} key={post.id} onClick={this.onClick} />
+              // TODO: check if we can avoid receiving duplicate posts
+              <Post postData={post} key={post.index} onClick={this.onClick} />
             );
           })}
         </div>
