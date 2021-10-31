@@ -1,0 +1,75 @@
+.slidecontainer {
+  width: 100%;
+}
+
+.rezierContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 641px) {
+  .rezierContainer {
+    width: 100%;
+  }
+}
+
+.actionContainer {
+  display: flex;
+  justify-content: right;
+}
+
+.action {
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.button {
+  width: 5rem;
+  padding: 0.2rem;
+  margin: 0.2rem 0;
+}
+
+.blurLevelindi {
+  font-weight: bold;
+  color: grey;
+}
+
+label {
+  display: block;
+}
+
+.inutcontaa {
+  width: 20%;
+  margin: 0 0.5rem;
+}
+
+@media (min-width: 642px) {
+  .inutcontaa {
+    width: 35%;
+  }
+}
+
+.size {
+  border: 1px solid grey;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  width: 100%;
+}
+
+@media (max-width: 641px) {
+  .size {
+    width: 100%;
+  }
+}
+
+.copiedMessage {
+  margin: auto 0;
+}
+
+@media (min-width: 641px) {
+  .editRow1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+  }
+}

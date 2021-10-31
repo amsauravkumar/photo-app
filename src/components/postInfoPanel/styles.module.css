@@ -1,0 +1,23 @@
+.panelContainer {
+  margin: 0.5rem;
+}
+
+.authorDetails {
+  text-align: left;
+  margin: 0.5rem 0;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.authorTitle {
+  color: grey;
+}
+
+.switchImageMode {
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin: 1rem 0;
+}

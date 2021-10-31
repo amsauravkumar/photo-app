@@ -1,0 +1,13 @@
+.imageContainer {
+  height: 90% !important;
+}
+
+.enlargedImageContainer {
+  width: 50% !important;
+  height: 100% !important;
+}
+
+.image {
+  height: 100% !important;
+  object-fit: contain;
+}
