@@ -49,6 +49,12 @@ label {
   }
 }
 
+.resizeButton {
+  margin-top: 1.6rem;
+  height: 2rem;
+  width: 5rem;
+}
+
 .size {
   border: 1px solid grey;
   padding: 0.5rem;

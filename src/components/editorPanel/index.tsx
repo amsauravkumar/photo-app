@@ -76,11 +76,18 @@ const EditorPanel = (props: CompProps) => {
               defaultValue={props.dimentions.height}
             ></input>
           </div>
-          <button onClick={changeImageDimentions}>Resize</button>
+          <div>
+            <button
+              className={Styles.resizeButton}
+              onClick={changeImageDimentions}
+            >
+              Resize
+            </button>
+          </div>
         </div>
       </div>
       <div className={Styles.blurLevelindi}>
-        Blur Level Set To {props.range} (Slide to change setting)
+        Blur Level Set To {props.range} (Scale to change setting)
       </div>
       <Slider updateSliderValue={updateSliderValue} range={props.range} />
       <div className={Styles.actionContainer}>
