@@ -1,6 +1,9 @@
 import Constants from "../lib/const";
+interface ReqData {
+  path: string
+}
 
-const makeGetCall = async (data: any) => {
+const makeGetCall = async (data: ReqData) => {
   try {
     const { path } = data;
     const response = await fetch(`${Constants.API}${path}`);

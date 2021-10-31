@@ -1,6 +1,10 @@
 import { makeGetCall } from "./api.service";
 
-const getImages = async ({ page, limit }: any) => {
+interface ReqData {
+  page: number;
+  limit: number
+}
+const getImages = async ({ page, limit }: ReqData) => {
   try {
     const res = await makeGetCall({
       path: `/list?page=${page}&limit=${limit}`,
